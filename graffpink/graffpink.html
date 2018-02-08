@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
 <head>
     <!-- charset -->
@@ -7,19 +8,20 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
     <title>Graffpink</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 </head>
 <body>
     <header>
          
         <a href="#"><img class="logo" src="images/logo.png"></a>
         
-        <nav>
+        <nav class="nav">
             <ul>
                 <li>
                     <a href="#">Home</a>
@@ -40,30 +42,31 @@
                 <button class="login-button" type="button">Login</button>  
 
                 <div class="login-logo">
-                    <img src="images/login.png">
+                    <img src="images/login.png" alt="login-logo" width="13px" height="14px">
                 </div>         
         </div>
                  
     </header>
 
+    <main>
     <!-- banner -->
     <section>
         <div class="banner">
-            <img src="images/banner.png">
-            <div class="ellipse1">
-                <img src="images/ellipse1.png">
+            <img src="images/banner.png" alt="banner" width="1280px" height="834px">
+            <div class="ellipse-01">
+                <img src="images/ellipse-01.png" alt="ellipse" width="71px" height="71px"> 
             </div>
-            <div class="ellipse2">
-                <img src="images/ellipse2.png">
+            <div class="ellipse-02">
+                <img src="images/ellipse-02.png" alt="ellipse" width="92px" height="92px">
             </div>
-            <div class="ellipse3">
-                <img src="images/ellipse3.png">
+            <div class="ellipse-03">
+                <img src="images/ellipse-03.png" alt="ellipse" width="117px" height="117px">
             </div>  
             
             <div class="title">
                 <h1>WELCOME TO PINK</h1>
                 <div class="subtitle">
-                <h6>A multi purpose theme from cssauthor.com</h6>
+                    <span>A multi purpose theme from cssauthor.com</span>
                 </div>
             </div>  
             
@@ -72,12 +75,12 @@
 
         <!-- Images container -->
     <section class="container">
-            <div class="heading">
-                <h2>Lorem Ipsum is simply dummy</h2>
+            <div class="container-heading">
+                <span class="heading">Lorem Ipsum is simply dummy</span>
                 <div class="subheading">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                when an unknown        
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown        
                 </div>
             </div>
 
@@ -118,7 +121,7 @@
     <section class="news-container">           
         <article>
             <div class="news-container-item">
-                <img src="images/image.png" width="199px" height="132px">
+                <img src="images/image.png" alt="Four persons" width="199px" height="132px">
             
                 <div class="news-item">
                     <h3 class="news-item-heading">Lorem Ipsum is simply</h3> 
@@ -136,7 +139,7 @@
          
         <article>
                 <div class="news-container-item">
-                    <img src="images/image.png" width="199px" height="132px">
+                    <img src="images/image.png" alt="Four persons" width="199px" height="132px">
                 
                     <div class="news-item">
                         <h3 class="news-item-heading">Lorem Ipsum is simply</h3> 
@@ -154,7 +157,7 @@
 
         <article>
                     <div class="news-container-item">
-                        <img src="images/image.png" width="199px" height="132px">
+                        <img src="images/image.png" alt="Four persons" width="199px" height="132px">
                     
                         <div class="news-item">
                             <h3  class="news-item-heading">Lorem Ipsum is simply</h3> 
@@ -168,60 +171,70 @@
                         </div>
                     </div>
         </article>
-    </section>    
+    </section>   
 
-    <footer>
+    </main>
+
+    <footer class="footer">
         <section class="footer-inner">
             <div class="footer-item">
                 <h3>Sub Menu</h3>
-                <a href="#">Android</a>
-                <a href="#">Apps</a>
-                <a href="#">Articles</a>
-                <a href="#"> Backgrounds</a>
-                <a href="#">Blogger</a>
-                <a href="#">Books</a>
-                <a href="#">Coding</a>
+                <ul>
+                    <li><a href="#">Android</a></li>
+                    <li><a href="#">Apps</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#"> Backgrounds</a></li>
+                    <li><a href="#">Blogger</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">Coding</a></li>
+                </ul>
             </div>
 
             <div class="footer-item">
                 <h3>Sub Menu</h3>
-                <a href="#">Freebies</a>
-                <a href="#">Greetings</a>
-                <a href="#">Icons</a>
-                <a href="#">Illustrator</a>
-                <a href="#">Inspiration</a>
-                <a href="#">iPad</a>
-                <a href="#">iPhone</a>
+                <ul>
+                    <li><a href="#">Freebies</a></li>
+                    <li><a href="#">Greetings</a></li>
+                    <li><a href="#">Icons</a></li>
+                    <li><a href="#">Illustrator</a></li>
+                    <li><a href="#">Inspiration</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iPhone</a></li>
+                </ul>
             </div>
 
             <div class="footer-item">
                 <h3>Sub Menu</h3>
-                <a href="#">Drupal</a>
-                <a href="#">Fonts</a>
-                <a href="#">Freebies</a>
-                <a href="#">Greetings</a>
-                <a href="#">Icons</a>
-                <a href="#">Illustrator</a>
-                <a href="#">Inspiration</a>
+                <ul>
+                    <li><a href="#">Drupal</a></li>
+                    <li><a href="#">Fonts</a></li>
+                    <li><a href="#">Freebies</a></li>
+                    <li><a href="#">Greetings</a></li>
+                    <li><a href="#">Icons</a></li>
+                    <li><a href="#">Illustrator</a></li>
+                    <li><a href="#">Inspiration</a></li>
+                </ul>
             </div>
 
             <div class="footer-item">
                 <h3>Sub Menu</h3>
-                <a href="#">JQuery</a>
-                <a href="#">Magento</a>
-                <a href="#">Mobile</a>
-                <a href="#">Photoshop</a>
-                <a href="#">Plugins</a>
-                <a href="#">Resource</a>
-                <a href="#">Templates</a>
+                <ul>
+                    <li><a href="#">JQuery</a>
+                    <li><a href="#">Magento</a>
+                    <li><a href="#">Mobile</a>
+                    <li><a href="#">Photoshop</a>
+                    <li><a href="#">Plugins</a>
+                    <li><a href="#">Resource</a>
+                    <li><a href="#">Templates</a>
+                </ul>
             </div>
         </section>
 
         <section class="footer-social-icons">            
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-dribbble"></a>
-            <a href="#" class="fa fa-share-alt"></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="#"><i class="fa fa-share-alt"></i></a>
         </section> 
     </footer>
 </body>

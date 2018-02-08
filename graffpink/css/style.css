@@ -14,19 +14,19 @@ header, footer, section, aside, nav, article {
     height: 834px;
 }
 
-.ellipse1 {
+.ellipse-01 {
     position: absolute;
     top: 287px;
     left: 650px;
 }
 
-.ellipse2 {
+.ellipse-02 {
     position: absolute;
     left: 624px;
     top: 230px;
 }
 
-.ellipse3 {
+.ellipse-03 {
     position: absolute;
     left: 565px;
     top: 264px;
@@ -41,7 +41,7 @@ header {
     height: 89px;
      
 }
-ul {
+.nav ul {
     display: inline-flex;
     position: absolute;
     list-style-type: none;
@@ -50,12 +50,12 @@ ul {
     left:643px;
 }
 
-li {
+.nav li {
     float: left;
     
 }
 
-li a {
+.nav li a {
     display: inline;
     text-decoration: none;
     color: black;
@@ -121,10 +121,13 @@ li a {
     text-align: center;
 }
 
-.heading {
+.container-heading {
     
     margin: auto;
     margin-top: 65px;
+}
+.heading {
+    font-size: 20px;
 }
 
 .subheading {
@@ -326,4 +329,8 @@ footer {
 
 .fa:hover {
     opacity: 0.7;
+}
+
+.footer-item ul {
+    list-style-type: none;
 }
